@@ -22,6 +22,17 @@
 		7D79C43B1842CE330093F3C3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D79C41F1842CE320093F3C3 /* CoreData.framework */; };
 		7D79C4431842CE330093F3C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D79C4411842CE330093F3C3 /* InfoPlist.strings */; };
 		7D79C4451842CE330093F3C3 /* Thousand_WordsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D79C4441842CE330093F3C3 /* Thousand_WordsTests.m */; };
+		7D79C44F1842D5640093F3C3 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D79C44E1842D5640093F3C3 /* Storyboard.storyboard */; };
+		7D79C4521842D6F50093F3C3 /* TWAlbumTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D79C4511842D6F50093F3C3 /* TWAlbumTableVC.m */; };
+		7D79C4581842FF7C0093F3C3 /* TWCoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D79C4571842FF7C0093F3C3 /* TWCoreDataHelper.m */; };
+		7D79C45B184395B10093F3C3 /* TWPhotosCollectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D79C45A184395B10093F3C3 /* TWPhotosCollectionVC.m */; };
+		7D79C45E18439AC00093F3C3 /* TWPhotoCollVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D79C45D18439AC00093F3C3 /* TWPhotoCollVCell.m */; };
+		7D79C4601843A0DE0093F3C3 /* Astronaut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D79C45F1843A0DE0093F3C3 /* Astronaut.jpg */; };
+		7D79C46318446FD60093F3C3 /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D79C46218446FD60093F3C3 /* Album.m */; };
+		7D79C46618446FD70093F3C3 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D79C46518446FD70093F3C3 /* Photo.m */; };
+		7D79C46A1844BB170093F3C3 /* TWPictureDataTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D79C4691844BB170093F3C3 /* TWPictureDataTransformer.m */; };
+		7D79C46D184501900093F3C3 /* TWPhotoDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D79C46C184501900093F3C3 /* TWPhotoDetailVC.m */; };
+		7D79C4711845A1580093F3C3 /* TWFiltersCollVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D79C4701845A1580093F3C3 /* TWFiltersCollVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +64,26 @@
 		7D79C4401842CE330093F3C3 /* Thousand WordsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Thousand WordsTests-Info.plist"; sourceTree = "<group>"; };
 		7D79C4421842CE330093F3C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7D79C4441842CE330093F3C3 /* Thousand_WordsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Thousand_WordsTests.m; sourceTree = "<group>"; };
+		7D79C44E1842D5640093F3C3 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		7D79C4501842D6F50093F3C3 /* TWAlbumTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWAlbumTableVC.h; sourceTree = "<group>"; };
+		7D79C4511842D6F50093F3C3 /* TWAlbumTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWAlbumTableVC.m; sourceTree = "<group>"; };
+		7D79C4561842FF7C0093F3C3 /* TWCoreDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWCoreDataHelper.h; sourceTree = "<group>"; };
+		7D79C4571842FF7C0093F3C3 /* TWCoreDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWCoreDataHelper.m; sourceTree = "<group>"; };
+		7D79C459184395B10093F3C3 /* TWPhotosCollectionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWPhotosCollectionVC.h; sourceTree = "<group>"; };
+		7D79C45A184395B10093F3C3 /* TWPhotosCollectionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWPhotosCollectionVC.m; sourceTree = "<group>"; };
+		7D79C45C18439AC00093F3C3 /* TWPhotoCollVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWPhotoCollVCell.h; sourceTree = "<group>"; };
+		7D79C45D18439AC00093F3C3 /* TWPhotoCollVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWPhotoCollVCell.m; sourceTree = "<group>"; };
+		7D79C45F1843A0DE0093F3C3 /* Astronaut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Astronaut.jpg; sourceTree = "<group>"; };
+		7D79C46118446FD60093F3C3 /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
+		7D79C46218446FD60093F3C3 /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Album.m; sourceTree = "<group>"; };
+		7D79C46418446FD70093F3C3 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		7D79C46518446FD70093F3C3 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		7D79C4681844BB170093F3C3 /* TWPictureDataTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWPictureDataTransformer.h; sourceTree = "<group>"; };
+		7D79C4691844BB170093F3C3 /* TWPictureDataTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWPictureDataTransformer.m; sourceTree = "<group>"; };
+		7D79C46B184501900093F3C3 /* TWPhotoDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWPhotoDetailVC.h; sourceTree = "<group>"; };
+		7D79C46C184501900093F3C3 /* TWPhotoDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWPhotoDetailVC.m; sourceTree = "<group>"; };
+		7D79C46F1845A1580093F3C3 /* TWFiltersCollVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWFiltersCollVC.h; sourceTree = "<group>"; };
+		7D79C4701845A1580093F3C3 /* TWFiltersCollVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWFiltersCollVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +146,21 @@
 		7D79C4211842CE320093F3C3 /* Thousand Words */ = {
 			isa = PBXGroup;
 			children = (
-				7D79C42A1842CE320093F3C3 /* TWAppDelegate.h */,
-				7D79C42B1842CE320093F3C3 /* TWAppDelegate.m */,
+				7D79C44E1842D5640093F3C3 /* Storyboard.storyboard */,
+				7D79C46F1845A1580093F3C3 /* TWFiltersCollVC.h */,
+				7D79C4701845A1580093F3C3 /* TWFiltersCollVC.m */,
+				7D79C46B184501900093F3C3 /* TWPhotoDetailVC.h */,
+				7D79C46C184501900093F3C3 /* TWPhotoDetailVC.m */,
+				7D79C45C18439AC00093F3C3 /* TWPhotoCollVCell.h */,
+				7D79C45D18439AC00093F3C3 /* TWPhotoCollVCell.m */,
+				7D79C459184395B10093F3C3 /* TWPhotosCollectionVC.h */,
+				7D79C45A184395B10093F3C3 /* TWPhotosCollectionVC.m */,
+				7D79C4501842D6F50093F3C3 /* TWAlbumTableVC.h */,
+				7D79C4511842D6F50093F3C3 /* TWAlbumTableVC.m */,
+				7D79C4561842FF7C0093F3C3 /* TWCoreDataHelper.h */,
+				7D79C4571842FF7C0093F3C3 /* TWCoreDataHelper.m */,
 				7D79C4301842CE320093F3C3 /* Images.xcassets */,
-				7D79C42D1842CE320093F3C3 /* Thousand_Words.xcdatamodeld */,
+				7D79C46718446FFC0093F3C3 /* CoreData */,
 				7D79C4221842CE320093F3C3 /* Supporting Files */,
 			);
 			path = "Thousand Words";
@@ -127,6 +169,9 @@
 		7D79C4221842CE320093F3C3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7D79C45F1843A0DE0093F3C3 /* Astronaut.jpg */,
+				7D79C42A1842CE320093F3C3 /* TWAppDelegate.h */,
+				7D79C42B1842CE320093F3C3 /* TWAppDelegate.m */,
 				7D79C4231842CE320093F3C3 /* Thousand Words-Info.plist */,
 				7D79C4241842CE320093F3C3 /* InfoPlist.strings */,
 				7D79C4271842CE320093F3C3 /* main.m */,
@@ -151,6 +196,20 @@
 				7D79C4411842CE330093F3C3 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7D79C46718446FFC0093F3C3 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				7D79C4681844BB170093F3C3 /* TWPictureDataTransformer.h */,
+				7D79C4691844BB170093F3C3 /* TWPictureDataTransformer.m */,
+				7D79C46118446FD60093F3C3 /* Album.h */,
+				7D79C46418446FD70093F3C3 /* Photo.h */,
+				7D79C46518446FD70093F3C3 /* Photo.m */,
+				7D79C46218446FD60093F3C3 /* Album.m */,
+				7D79C42D1842CE320093F3C3 /* Thousand_Words.xcdatamodeld */,
+			);
+			name = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,7 +289,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D79C4261842CE320093F3C3 /* InfoPlist.strings in Resources */,
+				7D79C4601843A0DE0093F3C3 /* Astronaut.jpg in Resources */,
 				7D79C4311842CE320093F3C3 /* Images.xcassets in Resources */,
+				7D79C44F1842D5640093F3C3 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +310,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D79C4521842D6F50093F3C3 /* TWAlbumTableVC.m in Sources */,
+				7D79C46A1844BB170093F3C3 /* TWPictureDataTransformer.m in Sources */,
 				7D79C4281842CE320093F3C3 /* main.m in Sources */,
+				7D79C4711845A1580093F3C3 /* TWFiltersCollVC.m in Sources */,
+				7D79C45E18439AC00093F3C3 /* TWPhotoCollVCell.m in Sources */,
+				7D79C46618446FD70093F3C3 /* Photo.m in Sources */,
+				7D79C46318446FD60093F3C3 /* Album.m in Sources */,
+				7D79C46D184501900093F3C3 /* TWPhotoDetailVC.m in Sources */,
 				7D79C42C1842CE320093F3C3 /* TWAppDelegate.m in Sources */,
+				7D79C45B184395B10093F3C3 /* TWPhotosCollectionVC.m in Sources */,
 				7D79C42F1842CE320093F3C3 /* Thousand_Words.xcdatamodeld in Sources */,
+				7D79C4581842FF7C0093F3C3 /* TWCoreDataHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +522,7 @@
 				7D79C44A1842CE330093F3C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7D79C44B1842CE330093F3C3 /* Build configuration list for PBXNativeTarget "Thousand WordsTests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +531,7 @@
 				7D79C44D1842CE330093F3C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
